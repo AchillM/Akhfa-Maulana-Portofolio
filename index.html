@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhfa M - Web Designer & Developer | Website Elegan, Cepat, Responsif</title>
+    <meta name="description" content="Akhfa M - Spesialis Web Design & Development. Membuat website elegan, cepat loading, dan 100% responsif untuk bisnis Anda.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Akhfa M</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">Web Designer & Developer</div>
+                <h1 class="hero-title">Akhfa M</h1>
+                <p class="hero-subtitle">
+                    Membuat website <strong>elegan, cepat, dan responsif</strong> yang 
+                    <span class="gradient-text">meningkatkan konversi bisnis Anda</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary btn-large">Lihat Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary btn-large">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar-container">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" alt="Akhfa M - Web Developer" class="avatar">
+                    <div class="avatar-ring"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tentang Saya</h2>
+                <p class="section-subtitle">Web Designer & Developer dengan pengalaman 4+ tahun</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Saya Akhfa M, spesialis <strong>Web Design & Development</strong> yang fokus menciptakan 
+                        pengalaman digital luar biasa. Dengan pengalaman 4+ tahun, saya telah membantu 
+                        50+ klien mencapai target bisnis mereka melalui website yang <em>elegan, cepat, dan responsif</em>.
+                    </p>
+                    <p>
+                        Passion saya adalah mengubah ide kompleks menjadi antarmuka yang intuitif dan menarik. 
+                        Saya selalu mengikuti <strong>tren terbaru</strong> di industri web development sambil 
+                        memastikan performa optimal dan pengalaman user terbaik.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number" data-target="50">0</div>
+                            <div class="stat-label">Proyek Selesai</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-target="98">0</div>
+                            <div class="stat-label">% Kepuasan</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number" data-target="4">0</div>
+                            <div class="stat-label">Tahun Pengalaman</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=600&fit=crop" alt="Akhfa M - Web Developer" class="about-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Keahlian Utama</h2>
+                <p class="section-subtitle">Technical skills yang saya kuasai dengan tingkat proficiency tinggi</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item" data-skill="95">
+                    <div class="skill-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML & CSS</h3>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="85">
+                    <div class="skill-header">
+                        <i class="fab fa-js-square"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="80">
+                    <div class="skill-header">
+                        <i class="fab fa-react"></i>
+                        <h3>React.js</h3>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="70">
+                    <div class="skill-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Firebase</h3>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="90">
+                    <div class="skill-header">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>UI/UX Design</h3>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item" data-skill="75">
+                    <div class="skill-header">
+                        <i class="fab fa-node-js"></i>
+                        <h3>Node.js</h3>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio Terbaru</h2>
+                <p class="section-subtitle">Proyek terbaik yang menunjukkan kualitas kerja saya</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="company">Web Company</button>
+                <button class="filter-btn" data-filter="landing">Landing Page</button>
+                <button class="filter-btn" data-filter="app">Web App</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item company" data-category="company">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop" alt="Corporate Website">
+                            <div class="card-overlay">
+                                <div class="card-links">
+                                    <a href="#" class="link-demo" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="link-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Corporate Website XYZ Corp</h3>
+                            <p>Website perusahaan modern dengan CMS custom, optimasi SEO, dan performa Core Web Vitals 95+.</p>
+                            <div class="tech-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item landing" data-category="landing">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&h=250&fit=crop" alt="SaaS Landing Page">
+                            <div class="card-overlay">
+                                <div class="card-links">
+                                    <a href="#" class="link-demo" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="link-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>SaaS Landing Page</h3>
+                            <p>Landing page konversi tinggi dengan animasi GSAP, A/B testing, dan integrasi payment gateway.</p>
+                            <div class="tech-tags">
+                                <span>HTML/CSS</span>
+                                <span>GSAP</span>
+                                <span>Stripe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item app" data-category="app">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=250&fit=crop" alt="Task Management App">
+                            <div class="card-overlay">
+                                <div class="card-links">
+                                    <a href="#" class="link-demo" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="link-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Task Management App</h3>
+                            <p>Progressive Web App dengan real-time collaboration, Firebase backend, dan PWA features lengkap.</p>
+                            <div class="tech-tags">
+                                <span>React</span>
+                                <span>Firebase</span>
+                                <span>PWA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item company" data-category="company">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop" alt="E-commerce Platform">
+                            <div class="card-overlay">
+                                <div class="card-links">
+                                    <a href="#" class="link-demo" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="link-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>E-commerce Platform</h3>
+                            <p>Platform e-commerce dengan custom checkout, inventory management, dan optimasi Lighthouse 98.</p>
+                            <div class="tech-tags">
+                                <span>Next.js</span>
+                                <span>Strapi</span>
+                                <span>Redis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item landing" data-category="landing">
+                    <div class="portfolio-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=250&fit=crop" alt="Product Launch Page">
+                            <div class="card-overlay">
+                                <div class="card-links">
+                                    <a href="#" class="link-demo" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                    <a href="#" class="link-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Product Launch Page</h3>
+                            <p>Halaman peluncuran produk dengan video background, scroll-triggered animations, dan email capture.</p>
+                            <div class="tech-tags">
+                                <span>HTML/CSS</span>
+                                <span>Three.js</span>
+                                <span>Mailchimp</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Prestasi & Pengalaman</h2>
+                <p class="section-subtitle">Track record dan pencapaian profesional saya</p>
+            </div>
+            <div class="experience-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Proyek Selesai</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-number" data-target="35">0</div>
+                        <div class="stat-label">Klien Puas</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Penghargaan</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="stat-number" data-target="4">0</div>
+                        <div class="stat-label">Tahun Pengalaman</div>
+                    </div>
+                </div>
+                <div class="certifications">
+                    <h3>Sertifikasi & Kursus</h3>
+                    <div class="cert-grid">
+                        <div class="cert-item">
+                            <i class="fab fa-react"></i>
+                            <span>React - The Complete Guide (Udemy)</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>Advanced JavaScript (Frontend Masters)</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-database"></i>
+                            <span>Firebase Development (Coursera)</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <span>UI/UX Design Principles (Google)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Blog & Artikel</h2>
+                <p class="section-subtitle">Tips, tutorial, dan insights tentang web development</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop" alt="Core Web Vitals">
+                        <div class="blog-category">Performance</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Optimasi Core Web Vitals untuk Google PageSpeed 100</h3>
+                        <p>Strategi lengkap meningkatkan Largest Contentful Paint, First Input Delay, dan Cumulative Layout Shift.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> 15 Mar 2026</span>
+                            <span><i class="fas fa-eye"></i> 2.4k</span>
+                        </div>
+                        <a href="#" class="blog-link">Baca Selengkapnya →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=400&h=250&fit=crop" a
