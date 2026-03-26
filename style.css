@@ -191,6 +191,7 @@ body {
 
 /* ===== THEME TOGGLE ===== */
 .theme-toggle {
+    z-index: 99999;
     position: fixed;
     top: 20px;
     right: 20px;
@@ -1151,4 +1152,13 @@ body {
 /* Smooth scrolling for all links */
 html {
     scroll-behavior: smooth;
+
+.hero * {
+    pointer-events: none;
+}
+
+.hero-content,
+.hero-buttons,
+.btn {
+    pointer-events: auto;
 }
